@@ -1,0 +1,16 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nodejs-example-app9
+  description: Create a Node.js Backend application with a CD pipeline
+  annotations:
+    backstage.io/kubernetes-id: nodejs-example-app9
+    argocd/app-name: nodejs-example-app9
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: intive-RedHat-Devex-demo/nodejs-example-app9
+spec:
+  type: api
+  system: intive-idp
+  lifecycle: production
+  owner: intive-RedHat-Devex-demo
